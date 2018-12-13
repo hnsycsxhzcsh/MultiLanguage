@@ -1,18 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.multilanguage.MainActivity">
 
     <TextView
+        android:id="@+id/tv_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:text="@string/message"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/bt_sys"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:text="@string/sys" />
+
+    <Button
+        android:id="@+id/bt_zh_cn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:text="@string/zh_cn" />
+
+    <Button
+        android:id="@+id/bt_zh_tw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:text="@string/zh_tw" />
+
+    <Button
+        android:id="@+id/bt_en"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:text="@string/en" />
+
+
+    <Button
+        android:id="@+id/bt_ja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:text="@string/ja" />
+
+</LinearLayout>

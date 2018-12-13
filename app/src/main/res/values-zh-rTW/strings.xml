@@ -1,0 +1,11 @@
+<resources>
+    <!--中文繁体-->
+    <string name="message">繁體中文多語言</string>
+    <string name="zh_cn">中文簡體</string>
+    <string name="zh_tw">中文繁體</string>
+    <string name="en">英文</string>
+    <string name="ja">日文</string>
+    <string name="sys">跟隨系統</string>
+
+
+</resources>

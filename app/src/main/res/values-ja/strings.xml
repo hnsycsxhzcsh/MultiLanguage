@@ -1,0 +1,10 @@
+<resources>
+    <!--日语-->
+    <string name="message">日本の多言語</string>
+    <string name="zh_cn">簡体字中国語</string>
+    <string name="zh_tw">繁体字中国語</string>
+    <string name="en">英語</string>
+    <string name="ja">日本語</string>
+    <string name="sys">システムに従う</string>
+
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <!--英语，美国-->
+    <string name="message">Traditional Chinese multilingual</string>
+    <string name="zh_cn">Chinese simplified</string>
+    <string name="zh_tw">Traditional chinese</string>
+    <string name="en">English</string>
+    <string name="ja">Japanese</string>
+    <string name="sys">Follow system</string>
+
+</resources>
