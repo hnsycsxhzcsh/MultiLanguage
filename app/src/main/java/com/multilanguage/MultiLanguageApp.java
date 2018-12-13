@@ -24,6 +24,7 @@ public class MultiLanguageApp extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        this.mAppContext = getApplicationContext();
         //初始化本地语言
 //        changeLanguage();
         //注册Activity生命周期监听回调，此部分一定加上，因为有些版本不加的话多语言
