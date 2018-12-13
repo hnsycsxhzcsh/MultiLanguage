@@ -46,7 +46,7 @@ public class MultiLanguageApp extends Application {
 
     @Override
     protected void attachBaseContext(Context base) {
-        //手动设置系统语言等设置时会调用此方法，需要要重置app语言
+        //系统语言等设置发生改变时会调用此方法，需要要重置app语言
         super.attachBaseContext(MultiLanguageUtil.attachBaseContext(base));
     }
 
