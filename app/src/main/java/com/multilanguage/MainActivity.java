@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             MultiLanguageUtil.changeAppLanguage(MultiLanguageApp.getContext(), newLocale, true);
         }
         //重启app,这一步一定要加上，如果不重启app，可能打开新的页面显示的语言会不正确
-        Intent intent = new Intent(MultiLanguageApp.getContext(), GuideActivity.class);
+        Intent intent = new Intent(MultiLanguageApp.getContext(), MainActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
         MultiLanguageApp.getContext().startActivity(intent);
         android.os.Process.killProcess(android.os.Process.myPid());
