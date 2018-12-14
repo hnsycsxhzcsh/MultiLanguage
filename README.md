@@ -5,6 +5,8 @@ apk下载地址：https://github.com/hnsycsxhzcsh/MultiLanguage/blob/master/myre
 
 效果图
 
-![image](https://github.com/hnsycsxhzcsh/MultiLanguage/blob/master/myres/multilanguage.gif) {:width="100px" height="206px"}
+![image](https://github.com/hnsycsxhzcsh/MultiLanguage/blob/master/myres/multilanguage.gif)
+
+<img src="https://github.com/hnsycsxhzcsh/MultiLanguage/blob/master/myres/multilanguage.gif"  height="100" width="206">
 
 欢迎浏览我的博客：https://blog.csdn.net/m0_38074457/article/details/84993366
