@@ -28,10 +28,6 @@ public class MultiLanguageApp extends Application {
     }
 
     private void changeLanguage() {
-        Locale newLocale = MultiLanguageUtil.getAppLocale(this);
-        String appLanguage = newLocale.getLanguage();
-        String appCountry = newLocale.getCountry();
-
         String spLanguage = SpUtil.getString(getApplicationContext(), ConstantGlobal.LOCALE_LANGUAGE);
         String spCountry = SpUtil.getString(getApplicationContext(), ConstantGlobal.LOCALE_COUNTRY);
 
