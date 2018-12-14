@@ -4,9 +4,6 @@
 apk下载地址：https://github.com/hnsycsxhzcsh/MultiLanguage/blob/master/myres/multilanguage.apk
 
 效果图
-
-![image](https://github.com/hnsycsxhzcsh/MultiLanguage/blob/master/myres/multilanguage.gif)
-
-<img src="https://github.com/hnsycsxhzcsh/MultiLanguage/blob/master/myres/multilanguage.gif"  height="206" width="100">
+<img src="https://github.com/hnsycsxhzcsh/MultiLanguage/blob/master/myres/multilanguage.gif" width="300" height="612">
 
 欢迎浏览我的博客：https://blog.csdn.net/m0_38074457/article/details/84993366
