@@ -8,9 +8,7 @@ import android.os.Build;
 import android.os.LocaleList;
 import android.text.TextUtils;
 import android.util.DisplayMetrics;
-
 import com.multilanguage.ConstantGlobal;
-
 import java.util.Locale;
 
 /**
@@ -113,11 +111,13 @@ public class MultiLanguageUtil {
         }
     }
 
+    //保存多语言信息到sp中
     public static void saveLanguageSetting(Context context, Locale locale) {
         SpUtil.saveString(context, ConstantGlobal.LOCALE_LANGUAGE, locale.getLanguage());
         SpUtil.saveString(context, ConstantGlobal.LOCALE_COUNTRY, locale.getCountry());
     }
 
+    //获取本地应用的实际的多语言信息
     public static Locale getAppLocale(Context context) {
         //获取应用语言
         Resources resources = context.getResources();
@@ -131,12 +131,7 @@ public class MultiLanguageUtil {
         return locale;
     }
 
-    public static Locale getSysLocale() {
-        //获取系统语言
-        Locale aDefault = Locale.getDefault();
-        return aDefault;
-    }
-
+    //判断sp中和app中的多语言信息是否相同
     public static boolean isSameWithSetting(Context context) {
         Locale locale = getAppLocale(context);
         String language = locale.getLanguage();
